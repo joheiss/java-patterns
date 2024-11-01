@@ -1,0 +1,41 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 80
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+class Director {
+    {method} buildBugatti(CarBuilder builder)
+    {method} buildBugatti(CarSchemaBuilder builder)
+}
+interface Builder {
+  {method} +id(int id)
+  {method} +brand(String brand)
+  {method} +model(String model)
+  {method} +color(String color)
+}
+class ConcreteBuilderA implements Builder {
+    {method} +ProductA build()
+}
+class ConcreteBuilderB implements Builder {
+    {method} +ProductB build()
+}
+class ProductA {
+    {field} int id
+    {field} String brand
+    {field} String model
+    {field} String color
+}
+
+class ProductB {
+    {field} int id
+    {field} String brand
+    {field} String model
+    {field} String color
+}
+Director ..> ConcreteBuilderA : uses
+ConcreteBuilderA --> ProductA : creates
+ConcreteBuilderB --> ProductB : creates
+@enduml

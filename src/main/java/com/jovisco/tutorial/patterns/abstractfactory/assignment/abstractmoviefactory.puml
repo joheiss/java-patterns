@@ -1,0 +1,63 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 80
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+together {
+    abstract class AbstractMovieFactory {
+        {abstract} Comedy createComedy() : Comedy
+        {abstract} ActionMovie createActionMovie() : ActionMovie
+    }
+    class HollywoodMovieFactory extends AbstractMovieFactory {
+        Comedy createComedy() : HollywoodComedy
+        ActionMovie createActionMovie() : HollywoodActionMovie
+    }
+    class BollywoodMovieFactory extends AbstractMovieFactory {
+        Comedy createComedy() : BollywoodComedy
+        ActionMovie createActionMovie() : BollywoodActionMovie
+    }
+}
+
+together {
+    together {
+        class HollywoodComedy {
+            void play() {
+        }
+        class HollywoodActionMovie {
+            void play() {
+        }
+    }
+    together {
+        class BollywoodComedy {
+            void play() {
+        }
+        class BollywoodActionMovie {
+            void play() {
+        }
+    }
+}
+
+together {
+    interface Movie {
+        void play()
+    }
+    interface Comedy extends Movie {
+        void play()
+    }
+    interface ActionMovie extends Movie {
+        void play()
+    }
+}
+
+HollywoodMovieFactory --> HollywoodComedy : creates
+HollywoodMovieFactory --> HollywoodActionMovie : creates
+BollywoodMovieFactory --> BollywoodComedy : creates
+BollywoodMovieFactory --> BollywoodActionMovie : creates
+HollywoodComedy .d.|> Comedy
+HollywoodActionMovie .d.|> ActionMovie
+BollywoodComedy .d.|> Comedy
+BollywoodActionMovie .d.|> ActionMovie
+@enduml

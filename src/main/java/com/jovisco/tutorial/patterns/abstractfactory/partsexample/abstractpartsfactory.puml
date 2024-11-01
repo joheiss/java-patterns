@@ -1,0 +1,65 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 80
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+together {
+    abstract class AbstractPartsFactory {
+      {method} abstract Gpu createGpu()
+      {method} abstract Monitor createMonitor()
+    }
+    class AsusManufacturer extends AbstractPartsFactory {
+      {method} Gpu createGpu()
+      {method} Monitor createMonitor()
+    }
+    class MsiManufacturer extends AbstractPartsFactory {
+      {method} Gpu createGpu()
+      {method} Monitor createMonitor()
+    }
+}
+
+
+together {
+    class AsusGpu {
+      {method} assemble()
+    }
+    class AsusMonitor {
+      {method} assemble()
+    }
+}
+
+together {
+    class MsiGpu  {
+      {method} assemble()
+    }
+    class MsiMonitor {
+      {method} assemble()
+    }
+}
+
+together {
+    interface Part {
+        {method} assemble()
+    }
+    interface Gpu {
+      {method} assemble()
+    }
+    interface Monitor {
+       {method} assemble()
+    }
+}
+
+AsusManufacturer -d-> AsusGpu
+AsusManufacturer -d-> AsusMonitor
+MsiManufacturer -d-> MsiGpu
+MsiManufacturer --d> MsiMonitor
+AsusGpu .d.|> Gpu
+MsiGpu .d.|> Gpu
+AsusMonitor .d.|> Monitor
+MsiMonitor .d.|> Monitor
+Gpu -d-|> Part
+Monitor -d-|> Part
+@enduml

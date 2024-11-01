@@ -1,0 +1,50 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 80
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+class Director {
+    {method} buildBugatti(CarBuilder builder)
+    {method} buildBugatti(CarSchemaBuilder builder)
+}
+interface CarBuilder {
+  {method} +id(int id)
+  {method} +brand(String brand)
+  {method} +model(String model)
+  {method} +color(String color)
+  {method} +height(int height)
+  {method} +engine(String engine)
+  {method} +nbrOfDoors(int nbrOfDoors)
+}
+class CarBuilderImpl implements CarBuilder {
+    {method} +Car build()
+}
+class CarSchemaBuilderImpl implements CarBuilder {
+    {method} +CarSchema build()
+}
+class Car {
+    {field} int id
+    {field} int height
+    {field} String brand
+    {field} String model
+    {field} String color
+    {field} String engine
+    {field} int nbrOfDoors
+}
+
+class CarSchema {
+    {field} int id
+    {field} int height
+    {field} String brand
+    {field} String model
+    {field} String color
+    {field} String engine
+    {field} int nbrOfDoors
+}
+Director ..> CarBuilderImpl : uses
+CarBuilderImpl --> Car : creates
+CarSchemaBuilderImpl --> CarSchema : creates
+@enduml

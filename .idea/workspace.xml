@@ -5,57 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe86adbd-6b13-47aa-8b2b-33be37b726d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/delegation/DelegationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/delegation/OutPutter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/delegation/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/delegation/RealPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/DependencyInjectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/ServiceImplA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/ServiceImplB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/AreaCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/OpenClosedPrincipleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/AbstractCreatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/AbstractShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/CircleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/RectangleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/SquareFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/abstractcreator.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/AssignmentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/factorymethodassignment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/concretecreator/concretecreator.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator/StaticCreatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator/staticcreator.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/ProgrammingToAnInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/Projector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jovisco/tutorial/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml/abstract-factory-method.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml/factorymethod.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml/singleton.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/AbstractMovieFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/ActionMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/BollywoodActionMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/BollywoodComedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/BollywoodMovieFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/Comedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/HollywoodActionMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/HollywoodComedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/HollywoodMovieFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/MovieFactoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/assignment/abstractmoviefactory.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/AbstractPartsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/AsusGpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/AsusManufacturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/AsusMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/Gpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/MsiGpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/MsiManufacturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/MsiMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/PartsExampleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/partsexample/abstractpartsfactory.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/ShapeExampleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/abstractfactory/shapesexample/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample/CarBuilderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample/CarDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample/CarExampleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample/CarSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample/CarSchemaBuilderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample/builder.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/VehicleExampleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/VehicleRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/assignment/TeamCaptainClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/assignment/TeamCaptainSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/billpugh/BillPughSingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/billpugh/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/doublecheckedlocking/DblCheckedSingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/doublecheckedlocking/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/eager/EagerSingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/eager/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/lazy/LazySingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/lazy/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/singleton/synchro/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/builder.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/prototype.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +103,22 @@
   "keyToString": {
     "Application.AbstractCreatorExample.executor": "Run",
     "Application.AssignmentClient.executor": "Run",
+    "Application.BillPughSingletonClient.executor": "Run",
+    "Application.CarExampleClient.executor": "Run",
     "Application.ConcreteCreatorExample.executor": "Run",
+    "Application.DblCheckedSingletonClient.executor": "Run",
     "Application.DelegationExample.executor": "Run",
     "Application.DependencyInjectionExample.executor": "Run",
+    "Application.EagerSingletonClient.executor": "Run",
+    "Application.LazySingletonClient.executor": "Run",
+    "Application.MovieFactoryClient.executor": "Run",
     "Application.OpenClosedPrincipleExample.executor": "Run",
+    "Application.PartsExampleClient.executor": "Run",
     "Application.ProgrammingToAnInterfaceExample.executor": "Run",
+    "Application.ShapeExampleClient.executor": "Run",
     "Application.StaticCreatorExample.executor": "Run",
+    "Application.TeamCaptainClient.executor": "Run",
+    "Application.VehicleExampleClient.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -105,7 +129,7 @@
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/joheiss/dev/tutorials/java/design-patterns/designpatterns/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator",
+    "last_opened_file_path": "/Users/joheiss/dev/tutorials/java/design-patterns/designpatterns/uml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,9 +141,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jovisco.tutorial.patterns.abstractfactory.assignment" />
+      <recent name="com.jovisco.tutorial.patterns.abstractfactory.partsexample" />
       <recent name="com.jovisco.tutorial.patterns.factorymethods.assignment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/uml" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -132,17 +160,20 @@
       <recent name="com.jovisco.tutorial" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jovisco.tutorial.patterns.singleton.billpugh" />
+      <recent name="com.jovisco.tutorial.patterns.singleton.eager" />
+      <recent name="com.jovisco.tutorial.patterns.singleton.doublecheckedlocking" />
+      <recent name="com.jovisco.tutorial.patterns.singleton.lazy" />
       <recent name="com.jovisco.tutorial.dependencyinjection" />
-      <recent name="com.jovisco.tutorial.pti" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AssignmentClient">
-    <configuration name="AbstractCreatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.factorymethods.abstractcreator.AbstractCreatorExample" />
+  <component name="RunManager" selected="Application.TeamCaptainClient">
+    <configuration name="BillPughSingletonClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.singleton.billpugh.BillPughSingletonClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.factorymethods.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.singleton.billpugh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssignmentClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.factorymethods.assignment.AssignmentClient" />
+    <configuration name="DblCheckedSingletonClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.singleton.doublecheckedlocking.DblCheckedSingletonClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.factorymethods.assignment.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.singleton.doublecheckedlocking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcreteCreatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.factorymethods.concretecreator.ConcreteCreatorExample" />
+    <configuration name="EagerSingletonClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.singleton.eager.EagerSingletonClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.factorymethods.concretecreator.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.singleton.eager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyInjectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.dependencyinjection.DependencyInjectionExample" />
+    <configuration name="LazySingletonClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.singleton.lazy.LazySingletonClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.dependencyinjection.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.singleton.lazy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticCreatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.factorymethods.staticcreator.StaticCreatorExample" />
+    <configuration name="TeamCaptainClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.singleton.assignment.TeamCaptainClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.factorymethods.staticcreator.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.singleton.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AssignmentClient" />
-        <item itemvalue="Application.StaticCreatorExample" />
-        <item itemvalue="Application.ConcreteCreatorExample" />
-        <item itemvalue="Application.AbstractCreatorExample" />
-        <item itemvalue="Application.DependencyInjectionExample" />
+        <item itemvalue="Application.TeamCaptainClient" />
+        <item itemvalue="Application.BillPughSingletonClient" />
+        <item itemvalue="Application.EagerSingletonClient" />
+        <item itemvalue="Application.DblCheckedSingletonClient" />
+        <item itemvalue="Application.LazySingletonClient" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +262,7 @@
       <workItem from="1730314547409" duration="11740000" />
       <workItem from="1730393912941" duration="1139000" />
       <workItem from="1730395057752" duration="432000" />
-      <workItem from="1730395494864" duration="12051000" />
+      <workItem from="1730395494864" duration="35838000" />
     </task>
     <servers />
   </component>

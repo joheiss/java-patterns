@@ -1,0 +1,27 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 80
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+class PrototypeRegistry {
+    {field} -items[] : Prototype
+    {method} +addItem(Prototype)
+    {method} +getByField() : Prototype
+}
+interface Prototype {
+  {method} +clone() : Prototype
+}
+class ConcretePrototype implements Prototype {
+    {field} -field1
+    {method} +clone() : Prototype
+}
+class SubclassPrototype extends ConcretePrototype {
+    {field} -field2
+       {method} +clone() : Prototype
+}
+
+PrototypeRegistry .r.> Prototype : uses
+@enduml
