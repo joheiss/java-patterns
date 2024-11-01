@@ -1,0 +1,57 @@
+@startuml
+skinparam nodesep 10
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+interface AbstractFactory {
+  {method} createProductA(): AbstractProductA
+  {method} createProductB(): AbstractProductB
+}
+
+abstract class AbstractProductA {
+  {method} operationA()
+}
+
+abstract class AbstractProductB {
+  {method} operationB()
+}
+
+class ConcreteFactory1 extends AbstractFactory {
+  {method} createProductA(): ConcreteProductA1
+  {method} createProductB(): ConcreteProductB1
+}
+
+class ConcreteFactory2 extends AbstractFactory {
+  {method} createProductA(): ConcreteProductA2
+  {method} createProductB(): ConcreteProductB2
+}
+
+class ConcreteProductA1 extends AbstractProductA {
+  {method} operationA()
+}
+
+class ConcreteProductA2 extends AbstractProductA {
+  {method} operationA()
+}
+
+class ConcreteProductB1 extends AbstractProductB {
+  {method} operationB()
+}
+
+class ConcreteProductB2 extends AbstractProductB {
+  {method} operationB()
+}
+
+Client --> AbstractFactory
+Client --> AbstractProductA
+Client --> AbstractProductB
+
+ConcreteFactory1 ..> ConcreteProductA1
+ConcreteFactory1 ..> ConcreteProductB1
+ConcreteFactory2 ..> ConcreteProductA2
+ConcreteFactory2 ..> ConcreteProductB2
+
+@enduml
+

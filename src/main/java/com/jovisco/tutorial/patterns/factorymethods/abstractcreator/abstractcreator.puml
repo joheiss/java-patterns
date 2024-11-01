@@ -1,0 +1,36 @@
+@startuml
+skinparam nodesep 10
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+abstract class AbstractShapeFactory {
+    abstract {method} Shape createShape
+    {method} Shape getShape()
+}
+class CircleFactory extends AbstractShapeFactory {
+    {method} Shape createShape()
+}
+class SquareFactory extends AbstractShapeFactory {
+    {method} Shape createShape()
+}
+class RectangleFactory extends AbstractShapeFactory {
+    {method} Shape createShape()
+}
+interface Shape {
+    {method} draw()
+}
+class Circle implements Shape {
+    {method} draw()
+}
+class Square implements Shape {
+    {method} draw()
+}
+class Rectangle implements Shape {
+    {method} draw()
+}
+CircleFactory --> Circle
+SquareFactory --> Square
+RectangleFactory --> Rectangle
+@enduml

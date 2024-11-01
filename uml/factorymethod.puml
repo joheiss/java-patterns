@@ -1,0 +1,37 @@
+@startuml
+skinparam nodesep 10
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+interface Product {
+  {method} operation()
+}
+
+abstract class Creator {
+  {method} factoryMethod(): Product
+  {method} someOperation(): void
+}
+
+class ConcreteProductA implements Product {
+  {method} operation()
+}
+
+class ConcreteProductB implements Product {
+  {method} operation()
+}
+
+class ConcreteCreatorA extends Creator {
+  {method} factoryMethod(): ConcreteProductA
+}
+
+class ConcreteCreatorB extends Creator {
+  {method} factoryMethod(): ConcreteProductB
+}
+
+Client *-- Creator
+ConcreteCreatorA ..> ConcreteProductA
+ConcreteCreatorB ..> ConcreteProductB
+
+@enduml

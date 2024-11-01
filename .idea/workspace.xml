@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe86adbd-6b13-47aa-8b2b-33be37b726d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/delegation/DelegationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/delegation/OutPutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/delegation/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/delegation/RealPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/DependencyInjectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/ServiceImplA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/dependencyinjection/ServiceImplB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/AreaCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/OpenClosedPrincipleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/openclosedprinciple/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/AbstractCreatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/AbstractShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/CircleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/RectangleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/SquareFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/abstractcreator/abstractcreator.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/AssignmentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/assignment/factorymethodassignment.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/concretecreator/concretecreator.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator/StaticCreatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator/staticcreator.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/ProgrammingToAnInterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/pti/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jovisco/tutorial/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/abstract-factory-method.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/factorymethod.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/singleton.puml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2oAZs2312lXvQTij1UYSbmeMVUR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractCreatorExample.executor": "Run",
+    "Application.AssignmentClient.executor": "Run",
+    "Application.ConcreteCreatorExample.executor": "Run",
+    "Application.DelegationExample.executor": "Run",
+    "Application.DependencyInjectionExample.executor": "Run",
+    "Application.OpenClosedPrincipleExample.executor": "Run",
+    "Application.ProgrammingToAnInterfaceExample.executor": "Run",
+    "Application.StaticCreatorExample.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/joheiss/dev/tutorials/java/design-patterns/designpatterns/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jovisco.tutorial.patterns.factorymethods.assignment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.jovisco.tutorial.delegation" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jovisco.tutorial" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jovisco.tutorial.dependencyinjection" />
+      <recent name="com.jovisco.tutorial.pti" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AssignmentClient">
+    <configuration name="AbstractCreatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.factorymethods.abstractcreator.AbstractCreatorExample" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.factorymethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.factorymethods.assignment.AssignmentClient" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.factorymethods.assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcreteCreatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.factorymethods.concretecreator.ConcreteCreatorExample" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.factorymethods.concretecreator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependencyInjectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.dependencyinjection.DependencyInjectionExample" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jovisco.tutorial.dependencyinjection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticCreatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.factorymethods.staticcreator.StaticCreatorExample" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.factorymethods.staticcreator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AssignmentClient" />
+        <item itemvalue="Application.StaticCreatorExample" />
+        <item itemvalue="Application.ConcreteCreatorExample" />
+        <item itemvalue="Application.AbstractCreatorExample" />
+        <item itemvalue="Application.DependencyInjectionExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe86adbd-6b13-47aa-8b2b-33be37b726d2" name="Changes" comment="" />
+      <created>1730314546404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730314546404</updated>
+      <workItem from="1730314547409" duration="11740000" />
+      <workItem from="1730393912941" duration="1139000" />
+      <workItem from="1730395057752" duration="432000" />
+      <workItem from="1730395494864" duration="12051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.puml" />
+  </component>
+</project>

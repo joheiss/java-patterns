@@ -1,0 +1,22 @@
+@startuml
+skinparam nodesep 10
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+class AnimalFactory {
+    {method} Shape getShape(String shapeType)
+}
+interface Animal {
+    {method} walk()
+}
+class Dog implements Animal {
+    {method} walk()
+}
+class Cat implements Animal {
+    {method} walk()
+}
+AnimalFactory --> Dog
+AnimalFactory --> Cat
+@enduml
