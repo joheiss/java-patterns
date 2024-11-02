@@ -1,0 +1,30 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 80
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+
+interface Command {
+  {method} + execute()
+}
+class ConcreteCommand implements Command {
+    {field} - receiver
+    {method} + Command(receiver)
+    {method} + execute()
+}
+
+class Invoker {
+    {field} - command
+    {method} + setCommand(command)
+    {method} + executeCommand()
+}
+
+class Receiver {}
+
+Client -u-> Invoker
+Client -l-> Receiver
+Client -r-> ConcreteCommand
+@enduml

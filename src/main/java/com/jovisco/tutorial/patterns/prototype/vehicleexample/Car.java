@@ -9,7 +9,7 @@ public class Car extends Vehicle{
         this.topSpeed = topSpeed;
     }
 
-    public Car(Car car) {
+    protected Car(Car car) {
         super(car);
         this.topSpeed = car.topSpeed;
     }
@@ -17,5 +17,15 @@ public class Car extends Vehicle{
     @Override
     public Car clone() {
         return new Car(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + getBrand() + '\'' +
+                ", model='" + getModel() + '\'' +
+                ", color='" + getColor() + '\'' +
+                "topSpeed=" + topSpeed +
+                '}';
     }
 }

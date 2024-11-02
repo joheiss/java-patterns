@@ -22,7 +22,7 @@ public class VehicleExampleClient {
 
         VehicleRegistry registry = new VehicleRegistry();
         registry.put(vehicles);
-        System.out.println(registry.get("car_brand car_model"));
+        System.out.println(registry.get("Bugatti Chiron"));
 
     }
 }

@@ -6,10 +6,7 @@ skinparam class {
   BackgroundColor<<abstract>> #ccccff
 }
 
-class Director {
-    {method} buildBugatti(CarBuilder builder)
-    {method} buildBugatti(CarSchemaBuilder builder)
-}
+
 interface Builder {
   {method} +id(int id)
   {method} +brand(String brand)
@@ -35,6 +32,13 @@ class ProductB {
     {field} String model
     {field} String color
 }
+class Director {
+    {method} buildBugatti(CarBuilder builder)
+    {method} buildBugatti(CarSchemaBuilder builder)
+}
+Client -r-> Director : instantiates
+Client -r-> ConcreteBuilderA : instantiates
+Client -r-> ConcreteBuilderB : instantiates
 Director ..> ConcreteBuilderA : uses
 ConcreteBuilderA --> ProductA : creates
 ConcreteBuilderB --> ProductB : creates

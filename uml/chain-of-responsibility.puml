@@ -1,0 +1,23 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 80
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+
+interface Handler {
+  {method} + handle(request)
+}
+abstract class BaseHandler implements Handler {
+    {method} - next : Handler
+    {method} + handle(request)
+}
+class ConcreteHandler extends BaseHandler {
+    {method} + handle(request)
+}
+
+Client -r-> Handler : uses
+
+@enduml

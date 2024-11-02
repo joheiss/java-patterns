@@ -22,6 +22,7 @@ class SubclassPrototype extends ConcretePrototype {
     {field} -field2
        {method} +clone() : Prototype
 }
-
-PrototypeRegistry .r.> Prototype : uses
+Client -r-> ConcretePrototype : instantiates
+Client -d-> SubclassPrototype : instantiates
+Client -d-> PrototypeRegistry : instantiates
 @enduml

@@ -9,7 +9,7 @@ public class Bus extends Vehicle {
         this.numOfSeats = numOfSeats;
     }
 
-    public Bus(Bus bus) {
+    protected Bus(Bus bus) {
         super(bus);
         this.numOfSeats = bus.numOfSeats;
     }
@@ -17,5 +17,15 @@ public class Bus extends Vehicle {
     @Override
     public Bus clone() {
         return new Bus(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Bus{" +
+                "brand='" + getBrand() + '\'' +
+                ", model='" + getModel() + '\'' +
+                ", color='" + getColor() + '\'' +
+                "numOfSeats=" + numOfSeats +
+                '}';
     }
 }

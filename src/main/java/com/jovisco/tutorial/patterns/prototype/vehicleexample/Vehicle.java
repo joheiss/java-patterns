@@ -1,6 +1,6 @@
 package com.jovisco.tutorial.patterns.prototype.vehicleexample;
 
-public abstract class Vehicle implements Prototype {
+public abstract class Vehicle implements Cloneable {
 
     private final String brand;
     private final String model;
@@ -18,6 +18,7 @@ public abstract class Vehicle implements Prototype {
         this.color = vehicle.color;
     }
 
+    @Override
     public abstract Vehicle clone();
 
     public String getBrand() {
@@ -26,5 +27,9 @@ public abstract class Vehicle implements Prototype {
 
     public String getModel() {
         return model;
+    }
+
+    public String getColor() {
+        return color;
     }
 }

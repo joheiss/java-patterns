@@ -1,0 +1,31 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 40
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+together {
+    abstract class AbstractTemplate {
+      {method} + templateMethod()
+      {method} + step1()
+      {method} + step2()
+      {method} + step3()
+      {method} + stepn()
+
+    }
+    class ConcreteTemplateUser1 extends AbstractTemplate {
+        {method} + step1()
+        {method} + step2()
+    }
+    class ConcreteTemplateUser2 extends AbstractTemplate {
+        {method} + step1()
+        {method} + step3()
+    }
+}
+
+
+Client -d-> ConcreteTemplateUser1 : instantiates
+Client -d-> ConcreteTemplateUser2 : instantiates
+@enduml
