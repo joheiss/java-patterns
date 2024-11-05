@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/state-diagram
+
+scale 350 width
+
+[*] --> Off
+Off --> Locked : use Home or Power button
+Locked --> Ready : use Home button
+Locked --> Off : use Power button
+Ready --> Off : use Power button
+
+@enduml

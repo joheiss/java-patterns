@@ -5,43 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe86adbd-6b13-47aa-8b2b-33be37b726d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/vehicleexample/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/vehicleexample/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/vehicleexample/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/vehicleexample/MotorcycleBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/vehicleexample/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/vehicleexample/VehicleBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/vehicleexample/VehicleDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/vehicleexample/VehicleExampleClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/chainofresponsibility/ChainOfRespClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/chainofresponsibility/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/chainofresponsibility/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/chainofresponsibility/LoginWorkflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/chainofresponsibility/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/chainofresponsibility/RoleCheckHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/chainofresponsibility/UserExistsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/chainofresponsibility/ValidPasswordHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/CommandClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/Curtains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/FloorLamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/OpenCloseCurtainsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/command/SwitchLightsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/templatemethod/AbstractGameLoaderTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/templatemethod/DiabloLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml/chain-of-responsibility.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml/command.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml/template-method.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/mediator/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/mediator/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/mediator/ForgotPasswordButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/mediator/LoginButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/mediator/MediatorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/memento/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/memento/EditorUsingMementoRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/memento/MementoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/memento/TextArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/memento/TextAreaUsingMementoRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/memento/sequence.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer/EmailMsgListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer/MobileAppListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer/ObserverClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer/observer.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/state/LockedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/state/OffState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/state/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/state/ReadyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/state/StateClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/state/state-state.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/strategy/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/strategy/PaymentByCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/strategy/PaymentByPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/strategy/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/strategy/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/strategy/StrategyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/mediator.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/memento.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/observer.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/state.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/strategy-class.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/VehicleExampleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/prototype/vehicleexample/VehicleExampleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/builder.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/builder.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/prototype.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/prototype.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,8 @@
         <option value="JUnit5 Test Class" />
         <option value="Record" />
         <option value="Interface" />
+        <option value="UML State" />
+        <option value="UML Class" />
         <option value="Class" />
       </list>
     </option>
@@ -61,6 +66,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -86,15 +95,22 @@
     "Application.DependencyInjectionExample.executor": "Run",
     "Application.EagerSingletonClient.executor": "Run",
     "Application.LazySingletonClient.executor": "Run",
+    "Application.MediatorClient.executor": "Run",
+    "Application.MementoClient.executor": "Run",
     "Application.MovieFactoryClient.executor": "Run",
+    "Application.ObserverClient.executor": "Run",
     "Application.OpenClosedPrincipleExample.executor": "Run",
     "Application.PartsExampleClient.executor": "Run",
     "Application.ProgrammingToAnInterfaceExample.executor": "Run",
     "Application.ShapeExampleClient.executor": "Run",
+    "Application.StateClient.executor": "Run",
     "Application.StaticCreatorExample.executor": "Run",
+    "Application.StrategyClient.executor": "Run",
     "Application.TeamCaptainClient.executor": "Run",
+    "Application.TemplateMethodClient.executor": "Run",
     "Application.VehicleExampleClient.executor": "Run",
     "Application.com.jovisco.tutorial.patterns.builder.vehicleexample.VehicleExampleClient.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Class",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -117,13 +133,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jovisco.tutorial.patterns.strategy" />
+      <recent name="com.jovisco.tutorial.patterns.state" />
+      <recent name="com.jovisco.tutorial.patterns.observer" />
       <recent name="com.jovisco.tutorial.patterns.command" />
       <recent name="com.jovisco.tutorial.patterns.abstractfactory.assignment" />
-      <recent name="com.jovisco.tutorial.patterns.abstractfactory.partsexample" />
-      <recent name="com.jovisco.tutorial.patterns.factorymethods.assignment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/uml" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/observer" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/builder/carexample" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jovisco/tutorial/patterns/factorymethods/staticcreator" />
     </key>
@@ -137,20 +155,20 @@
       <recent name="com.jovisco.tutorial" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jovisco.tutorial.patterns.memento" />
+      <recent name="com.jovisco.tutorial.patterns.mediator" />
+      <recent name="com.jovisco.tutorial.patterns.templatemethod" />
       <recent name="com.jovisco.tutorial.patterns.chainofresponsibility" />
       <recent name="com.jovisco.tutorial.patterns.builder.vehicleexample" />
-      <recent name="com.jovisco.tutorial.patterns.singleton.billpugh" />
-      <recent name="com.jovisco.tutorial.patterns.singleton.eager" />
-      <recent name="com.jovisco.tutorial.patterns.singleton.doublecheckedlocking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TemplateMethodClient">
-    <configuration name="ChainOfRespClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.chainofresponsibility.ChainOfRespClient" />
+  <component name="RunManager" selected="Application.StrategyClient">
+    <configuration name="MediatorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.mediator.MediatorClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.chainofresponsibility.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.command.CommandClient" />
+    <configuration name="MementoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.memento.MementoClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.command.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateMethodClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.templatemethod.TemplateMethodClient" />
+    <configuration name="ObserverClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.observer.ObserverClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.templatemethod.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleExampleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.prototype.vehicleexample.VehicleExampleClient" />
+    <configuration name="StateClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.state.StateClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.prototype.vehicleexample.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.jovisco.tutorial.patterns.builder.vehicleexample.VehicleExampleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.builder.vehicleexample.VehicleExampleClient" />
+    <configuration name="StrategyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jovisco.tutorial.patterns.strategy.StrategyClient" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jovisco.tutorial.patterns.builder.vehicleexample.*" />
+          <option name="PATTERN" value="com.jovisco.tutorial.patterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TemplateMethodClient" />
-        <item itemvalue="Application.CommandClient" />
-        <item itemvalue="Application.ChainOfRespClient" />
-        <item itemvalue="Application.com.jovisco.tutorial.patterns.builder.vehicleexample.VehicleExampleClient" />
-        <item itemvalue="Application.VehicleExampleClient" />
+        <item itemvalue="Application.StrategyClient" />
+        <item itemvalue="Application.StateClient" />
+        <item itemvalue="Application.ObserverClient" />
+        <item itemvalue="Application.MementoClient" />
+        <item itemvalue="Application.MediatorClient" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +257,8 @@
       <workItem from="1730314547409" duration="11740000" />
       <workItem from="1730393912941" duration="1139000" />
       <workItem from="1730395057752" duration="432000" />
-      <workItem from="1730395494864" duration="56090000" />
+      <workItem from="1730395494864" duration="68284000" />
+      <workItem from="1730801783327" duration="7377000" />
     </task>
     <servers />
   </component>

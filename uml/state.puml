@@ -1,0 +1,37 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 50
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+together {
+    interface State {
+      {method} + doSomething()
+      {method} + doMore()
+    }
+
+    class ConcreteStateA implements State {
+        {field} - context
+        {method} + doSomething()
+        {method} + doMore()
+    }
+
+class ConcreteStateB implements State {
+        {field} - context
+        {method} + doSomething()
+        {method} + doMore()
+    }
+}
+
+class Context {
+    {field} - state: State
+    {method} + changeState(State)
+    {method} + doThis()
+    {method} + doThat()
+}
+
+Client -r-> Context : instantiates
+Context o-- State
+@enduml

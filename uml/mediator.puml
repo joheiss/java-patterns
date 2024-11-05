@@ -1,0 +1,39 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 50
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+together {
+    interface Mediator {
+      {method} + execute()
+    }
+    class ConcreteMediator implements Mediator {
+        {field} - componentA
+        {field} - componentB
+        {method} + execute()
+        {method} + executeOnA()
+        {method} + executeOnBA()
+        {method} +ProductB build()
+    }
+}
+
+together {
+    interface Colleague {
+        {method} + setMediator()
+    }
+    class ConcreteColleagueA implements Colleague {
+        {field} - mediator
+        {method} + executeA()
+    }
+    class ConcreteColleagueB implements Colleague {
+        {field} - mediator
+        {method} + executeB()
+    }
+}
+ConcreteMediator <-r- ConcreteColleagueA : uses
+ConcreteMediator <-r- ConcreteColleagueB : uses
+Mediator -[hidden]r-> Colleague
+@enduml

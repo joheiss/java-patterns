@@ -1,0 +1,11 @@
+@startuml
+actor Caretaker
+actor Originator
+actor Memento
+Caretaker -> Originator : init state history
+Originator -> Memento : new Memento
+Caretaker -> Originator : change state
+Originator -> Memento : save Memento
+Caretaker -> Originator : undo change
+Originator -> Memento : restore Memento
+@enduml

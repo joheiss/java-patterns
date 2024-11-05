@@ -1,0 +1,33 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 50
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+together {
+    interface Observer {
+      {method} + update()
+    }
+
+    class ConcreteObserverA implements Observer {
+        {method} + update()
+    }
+
+    class ConcreteObserverB implements Observer {
+        {method} + update()
+    }
+}
+
+class Subject {
+    {field} - subscribers: Observer[]
+    {method} + subscribe(Observer)
+    {method} + unsubscribe(Observer)
+    {method} + notify()
+}
+
+
+Client -r-> Subject : instantiates
+Subject o-- Observer
+@enduml

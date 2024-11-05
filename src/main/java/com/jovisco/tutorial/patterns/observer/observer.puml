@@ -1,0 +1,38 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 50
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+together {
+    interface Listener {
+      {method} + update()
+    }
+
+    class EmailMsgListener implements Listener {
+        {method} + update()
+    }
+
+    class MobileAppListener implements Listener {
+        {method} + update()
+    }
+}
+
+class Store {
+    {field} - notificationService: NotificationService
+
+}
+
+class NotificationService {
+    {field} - listeners: Listener
+    {method} + subscribe(Listener)
+    {method} + unsubscribe(Listener)
+    {method} + notify(Listener)
+}
+
+Client -r-> Store : instantiates
+Store o-- NotificationService
+NotificationService o-- Listener
+@enduml

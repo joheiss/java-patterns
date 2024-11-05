@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Strategy {
+    + doSomething()
+}
+
+class ConcreteStrategyA implements Strategy {
+    + doSomething(data)
+}
+
+class ConcreteStrategyB implements Strategy {
+    + doSomething(data)
+}
+
+class Context {
+    {field} - strategy: Strategy
+    + setStrategy(Strategy)
+    + doThis()
+}
+Client -r-> Context : instantiate
+Context --> Strategy
+@enduml

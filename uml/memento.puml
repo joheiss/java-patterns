@@ -1,0 +1,32 @@
+@startuml
+skinparam nodesep 20
+skinparam ranksep 50
+skinparam class {
+  BackgroundColor<<interface>> #ffccff
+  BackgroundColor<<abstract>> #ccccff
+}
+
+class Memento {
+    {field} - state
+    {method} - Memento(state)
+    {method} + save() : Memento
+    {method} + restore(Memento) : void
+}
+note right:  inner class of Originator
+
+class Originator {
+    {field} - state
+    {method} + save() : Memento
+    {method} + restore(Memento) : void
+}
+
+
+class CareTaker {
+    {field} - originator
+    {field} - history: Memento[]
+    {method} + do()
+    {method} + undo
+}
+
+Originator +-- Memento
+@enduml
